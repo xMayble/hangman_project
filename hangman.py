@@ -1,4 +1,6 @@
-a = 2
-b = 3
+import random
 
-print(a<b)
+word_list = ["aardvark", "baboon", "camel"]
+
+chosen_word = random.choice(word_list)
+print(chosen_word)
